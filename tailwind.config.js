@@ -4,6 +4,8 @@ const px = (num) => `${num}px`;
 
 module.exports = {
 	content: ['./pages/**/*.{html,js}', './components/**/*.{html,js}'],
+	// postcss.config.js
+
 	theme: {
 		fontFamily: {
 			body: ['Rubik', 'sans-serif'],
@@ -47,7 +49,7 @@ module.exports = {
 			tertiary: {
 				light: '#4acf81',
 				DEFAULT: '#f1c65b',
-				dark: '#710627',
+				dark: '#0f1424',
 				fg: '#fff',
 			},
 			grey: {
